@@ -1,0 +1,36 @@
+<div class="page">
+
+  <div class="header">
+    IT 08-1
+  </div>
+
+  <div class="card">
+
+    <div class="post-header">
+      <div class="avatar">C</div>
+      <div>
+        <div class="name">Change can</div>
+        <div class="time">{{ currentTime }}</div>
+      </div>
+    </div>
+
+    <img class="post-image" src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d" />
+
+    <div class="comment-input">
+      <div class="avatar small">B</div>
+      <div>
+        <div class="name">Blend 285</div>
+        <input [(ngModel)]="message" (keydown)="onEnter($event)" placeholder="Comment" />
+      </div>
+    </div>
+
+    <div *ngFor="let c of comments" class="comment">
+      <div class="avatar small">B</div>
+      <div>
+        <div class="name">Blend 285</div>
+        <div>{{ c.message }}</div>
+      </div>
+    </div>
+
+  </div>
+</div>
