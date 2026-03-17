@@ -10,3 +10,7 @@
 ```bash
 npm install
 ng serve
+
+## URL
+- Frontend: http://localhost:4200
+- Backend: https://localhost:7078
