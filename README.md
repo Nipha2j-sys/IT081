@@ -18,6 +18,6 @@ ng serve
 ระบบ Comment ใช้ Angular + .NET Web API สามารถเพิ่มและแสดงคอมเมนต์ได้
 
 ## Tech Stack
-- Angular
-- .NET 6 Web API
+- Angular + Typescript
+- .NET 8 Web API
 - SQL Server
